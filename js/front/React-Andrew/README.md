@@ -602,11 +602,11 @@ lookup chrome React dev tools in google, or firefox react dev tools and download
 
 -  prevState wasent set in on setState on line 18 inside 'handleDeleteOption'. I have it set now.
 
-*                ? now everything is removed when I only press single remove button
+*                   ? now everything is removed when I only press single remove button
 
-                 * seems to be working great now!!!!!!!!!!!!!!!!
+                    * seems to be working great now!!!!!!!!!!!!!!!!
 
-                  - we never do anything in set state becides returning right away which is why we will be doing so implicidly from now on.
+                     - we never do anything in set state becides returning right away which is why we will be doing so implicidly from now on.
 
 looks like I have remove buttons' button already
 
@@ -1235,7 +1235,7 @@ OMG. 8 hours to rediscover im dyslexic: mispelled filters in the import statemen
 
 100. The Higher Order Component
 
-CHALLANGE: requireAuthentication
+     CHALLANGE: requireAuthentication
 
 101. Connecting Store and Component with React-Redux
 
@@ -1246,29 +1246,43 @@ https://github.com/reduxjs/react-redux
 
 we setup provider in the root of our application which let us define a store that we can provide to all of our components (step 1]) next we created higher order function
 
-102. Rendering Individual Expenses
+    102. Rendering Individual Expenses
 
-     CHALLANGE: Export a stateless functional component description, amount, createdAt
+        CHALLANGE: Export a stateless functional component description, amount, createdAt
 
-103. Controlled Inputs for Filters
+    103. Controlled Inputs for Filters
 
 we now have our firs component thats not only reading from the store but also writeing to it as well
 
-104. Dropdown for Picking SortBy
+    104. Dropdown for Picking SortBy
 
-105. Creating Expense Add/Edit Form
+    105. Creating Expense Add/Edit Form
 
-        8:47 - so far so good 
+        8:47 - so far so good
 
-        CHALLANGE:
-        setup note state
-        setup onChange and value for textarea
+        CHALLANGE: setup note state setup onChange and value for textarea
 
-        Something went wrong
-        got it 
+        Something went wrong got it
 
         11:31: everything is working
 
         13:04 " "
 
 https://regex101.com/ - resource for rejex deffinition matching
+
+106. Setting up a Date Picker
+
+https://momentjs.com/ - time library for manipulating and formating time, nodes datetime
+
+    $ yarn add moment@2.18.2 react-dates@12.3.0
+     yarn add react-dates@12.7
+        -or if problems
+            yarn add react-dates@12.7
+
+     as well as this one as well
+
+react-addons-shallow-compare@15.6.0
+
+4:24 after installing dependancies and restarting dev server.
+
+@ 16:46 im not getting a datepicker like he does
