@@ -29,7 +29,6 @@ export default class ExpenseForm extends React.Component {
 	};
 	onAmountChange = e => {
 		const amount = e.target.value;
-		// (/^\d*(\.\d{0,2})?$/))
 		if (amount.match(/^\d*(\.\d{0,2})?$/)) {
 			this.setState(() => ({amount}));
 		}
@@ -57,6 +56,8 @@ export default class ExpenseForm extends React.Component {
 						onDateChange={this.onDateChange}
 						focused={this.state.calendarFocused}
 						onFocusChange={this.onFocusChange}
+						numberOfMonths={1} // limit months shown
+						isOutsideRange={() => false } // enable days from past
 					/>
 					<textarea
 						placeholder="Add a note for your expenses(optional)"

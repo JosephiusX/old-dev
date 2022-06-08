@@ -1285,4 +1285,7 @@ react-addons-shallow-compare@15.6.0
 
 4:24 after installing dependancies and restarting dev server.
 
-@ 16:46 im not getting a datepicker like he does
+        @ 16:46 im not getting a datepicker like he does
+        > starting again at 12:44
+        > jump to 15:14
+    * it was working fine originally, I just hadent navigated to add expense page yet
