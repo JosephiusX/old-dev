@@ -602,11 +602,11 @@ lookup chrome React dev tools in google, or firefox react dev tools and download
 
 -  prevState wasent set in on setState on line 18 inside 'handleDeleteOption'. I have it set now.
 
-*                   ? now everything is removed when I only press single remove button
+*                    ? now everything is removed when I only press single remove button
 
-                    * seems to be working great now!!!!!!!!!!!!!!!!
+                     * seems to be working great now!!!!!!!!!!!!!!!!
 
-                     - we never do anything in set state becides returning right away which is why we will be doing so implicidly from now on.
+                      - we never do anything in set state becides returning right away which is why we will be doing so implicidly from now on.
 
 looks like I have remove buttons' button already
 
@@ -1289,3 +1289,11 @@ react-addons-shallow-compare@15.6.0
         > starting again at 12:44
         > jump to 15:14
     * it was working fine originally, I just hadent navigated to add expense page yet
+
+107. Wiring up Add Expense 
+
+        13:42-works so far
+
+add expense form done
+
+
