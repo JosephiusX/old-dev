@@ -1300,3 +1300,8 @@ add expense form done
 
              back at it at 5:17 ?
              seems to be up to date at 8:03
+
+109. Redux Dev Tools
+ lookup redux developer tools extension
+
+ https://github.com/reduxjs/redux-devtools/tree/main/extension#installation
